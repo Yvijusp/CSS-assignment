@@ -6,6 +6,7 @@
 
 .footer-list,
 .footer-list a {
+  display: inline-block;
   text-align: center;
   color: white;
   font-size: 14px;

@@ -1,0 +1,38 @@
+@media (min-width: 769px) {
+  .navbar .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .banner {
+    height: 80vh;
+  }
+  .container {
+    max-width: 65%;
+  }
+  .grid {
+    margin: -125px 0;
+  }
+
+  .team {
+    margin-top: 140px;
+  }
+
+  .team .container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 40px;
+  }
+  .team-img {
+    flex-direction: row;
+  }
+
+  .team-img img {
+    max-width: 50%;
+    margin-right: 20px;
+  }
+
+  .footer .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

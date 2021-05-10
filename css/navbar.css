@@ -1,6 +1,6 @@
 .navbar {
   background-color: var(--gray);
-  padding: 20px;
+  padding: 10px;
 }
 
 .navbar--search {
@@ -12,4 +12,9 @@
   outline: none;
   border: 1px solid var(--gray);
   padding-left: 20px;
+  margin-bottom: 8px;
+}
+
+.navbar h4 {
+  font-size: 24px;
 }

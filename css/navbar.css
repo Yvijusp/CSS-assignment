@@ -1,0 +1,15 @@
+.navbar {
+  background-color: var(--gray);
+  padding: 20px;
+}
+
+.navbar--search {
+  background-image: url(../Pictures/Search_Icon.svg);
+  padding: 4px;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 4px;
+  outline: none;
+  border: 1px solid var(--gray);
+  padding-left: 20px;
+}

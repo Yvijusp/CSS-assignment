@@ -1,0 +1,17 @@
+.banner {
+  background-image: url(../Pictures/metal-fence.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+.banner .container {
+  height: 100%;
+}
+
+.banner--content {
+  margin: 0;
+  text-align: center;
+  color: var(--gray);
+  font-weight: 700;
+}

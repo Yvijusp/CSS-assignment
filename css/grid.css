@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto, 1fr;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.about-item {
+  max-width: 100%;
+  text-align: center;
+}
+
+.about-item img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.about-item-description {
+  grid-column: 1/4;
+
+  max-width: 100%;
+}
+
+.about-item h4 {
+  font-weight: 800;
+  font-size: 18px;
+}

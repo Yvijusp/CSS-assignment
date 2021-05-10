@@ -14,7 +14,7 @@ html {
 }
 
 .container {
-  max-width: 75%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0;
 }
@@ -41,6 +41,10 @@ html {
 
 .text-red {
   color: red;
+}
+
+.text-yellow {
+  color: var(--yellow);
 }
 
 .text-uppercase {
